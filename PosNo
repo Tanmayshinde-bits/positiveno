@@ -1,0 +1,6 @@
+n = int(input("Enter number of elements : "))
+a = list(map(int,input("Enter the numbers : ").strip().split()))[:n]
+print("List is - ", a)
+for n in a:
+     if n>=0:
+            print("Positive number is:",n)
